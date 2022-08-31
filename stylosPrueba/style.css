@@ -1,0 +1,123 @@
+header {
+  grid-area: header;
+  background-color: #F8FEB2;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#header__logo {
+  padding-top: 20px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: bold;
+  color: #2D843B;
+  border: 5px solid black;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.gradiente {
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+  -webkit-animation-name: coderhouse;
+          animation-name: coderhouse;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.gradiente:hover {
+  height: 100px;
+  width: 400px;
+  padding: 20px;
+}
+
+.gradiente-padre {
+  border: 2px solid black;
+}
+
+nav {
+  grid-area: nav;
+  background-color: rgb(82, 218, 184);
+}
+
+#navegacion ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0px;
+  padding: 0;
+  background-color: rgb(82, 218, 184);
+  justify-content: flex-start;
+  height: 50px;
+  align-items: center;
+}
+#navegacion ul li {
+  font-family: Inter;
+  font-size: 18px;
+  overflow: hidden;
+}
+#navegacion ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+}
+#navegacion ul li a:hover {
+  color: rgb(99, 12, 12);
+}
+
+@-webkit-keyframes coderhouse {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: pink;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes coderhouse {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: pink;
+  }
+  100% {
+    background-color: red;
+  }
+}
+#grilla {
+  display: grid;
+  grid-template-areas: "header" "nav";
+  grid-template-columns: 100%;
+  grid-template-rows: 250px 50px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+nav{
+    grid-area: nav;
+    background-color: rgb(82, 218, 184);
+}
+
+#navegacion  {   
+    ul{
+        list-style-type: none;
+        display: flex;  
+        margin-top: 0px;
+        padding: 0;   
+        background-color: rgb(82, 218, 184);
+        justify-content: flex-start;
+        height: 50px;
+        align-items: center;
+
+        li{
+            font-family: $fontFamily;
+            font-size: 18px;
+            overflow: hidden; 
+
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 25px;
+                &:hover{
+                    color: rgb(99, 12, 12);
+                }
+            }
+        }
+    }
+    
+}

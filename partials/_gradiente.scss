@@ -1,0 +1,19 @@
+.gradiente{
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+    animation-name: coderhouse;
+    animation-duration: 3s ;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+    &:hover{
+        height: 100px;
+        width: 400px;
+        padding: 20px;
+    }
+}
+
+.gradiente-padre{
+    border: 2px solid black;
+}
