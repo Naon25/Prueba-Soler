@@ -115,9 +115,52 @@ nav {
     background-color: red;
   }
 }
-#grilla {
-  display: grid;
-  grid-template-areas: "header" "nav";
-  grid-template-columns: 100%;
-  grid-template-rows: 250px 50px;
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(28, 105, 206);
+  color: white;
+}
+
+.boton {
+  padding: 10px;
+  border-bottom: 3px solid red;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+.botonPrimario {
+  padding: 10px;
+  border-bottom: 3px solid rgb(173, 212, 109);
+  border-radius: 5px;
+  background-color: rgb(143, 131, 212);
+  color: white;
+}
+
+main {
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+main section {
+  padding: 20px;
+}
+main .seccionDos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

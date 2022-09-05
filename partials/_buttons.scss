@@ -1,4 +1,13 @@
 .btn {
-    background-color: $secondaryColor;
+    @extend %botonBase;
+    background-color: $colorBotones;
     color: $primaryColor;
+}
+
+.boton{
+    @include botones($borderColor: red, $textColor: white, $bgColor: green);
+}
+
+.botonPrimario{
+    @include botones($borderColor: rgb(173, 212, 109), $textColor: white, $bgColor: rgb(143, 131, 212));
 }

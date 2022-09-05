@@ -1,3 +1,5 @@
+@import "../partials/variables";
+
 header{
     grid-area: header;
     background-color: #F8FEB2;
@@ -11,7 +13,7 @@ header{
 #header__logo{
     padding-top: 20px;
     text-align: center;
-    font-family: $fontFamily;
+    font-family: Inter;
     font-size: 70px;
     font-weight: bold;
     color: #2D843B ;

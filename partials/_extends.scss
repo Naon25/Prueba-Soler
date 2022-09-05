@@ -4,3 +4,10 @@
     border-radius: 05px;
     font-size: 16px;
 }
+
+%flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

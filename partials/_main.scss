@@ -1,0 +1,12 @@
+main{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    section {
+        @extend %flexRow;
+        padding: 20px;
+    }
+    .seccionDos {
+        @include display($direction: column, $justify: center, $align:center)
+    }
+}
