@@ -1,7 +1,7 @@
 main{
-    padding: 20px;
-    color: white;
-    background-color: black;
+    padding: map-get($estilos, paddingUno);
+    color: map-get($estilos, colorPrimario);
+    background-color: map-get($estilos, colorSecundario);
     section {
         @extend %flexRow;
         padding: 20px;
